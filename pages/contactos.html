@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <link rel="stylesheet" href="../css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -18,7 +21,7 @@
           </nav>
     </header>
     <main>
-    <h1>Nos encontramos en CABA Buenos Aires</h1>
+    <h1  >Nos encontramos en CABA Buenos Aires</h1>
 
     <h2> Estamos en pleno corazon de plaza San Martin </h2>
     
@@ -31,32 +34,37 @@
         "border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <p> <a href="malito: florenciaslarroza@gmail.com" target="_blank">Escribinos para consultas</a>.</p>
         
-        <h3>
+        <h3 class="mycolor" >
             Formulario de contacto
 
             <form action="" method="post">
+                <div class="formulario">
                 <label for="Nombre"> Nombre: </label>
-                <input type="text" name="nombre" id="nombre">
-                <br> 
+                <input class="dato" type="text" name="nombre" id="nombre">
+                 </div>
 
+                <div class="formulario">
                 <label for="telefono">Telefono: </label>
-                <input type="number" name="telefono" id="telefono" >
-                <br>
+                <input class="dato" type="number" name="telefono" id="telefono" >
+            </div>
 
-                 
+                 <div class="formulario">
                 <label for="email"> Email: </label>
-                <input type="email" name="email" id="email" >
-                <br>
+                <input class="dato" type="email" name="email" id="email" >
+                
+            </div>
 
+            <div class="formulario">
 
                 <label for="password">Contraseña: </label>
-                <input type="password" name="password" name="password" >
-                <br>
-
+                <input class="dato" type="password" name="password" name="password" >
+                
+            </div>
+            <div class="formulario">
                 
                 <input type="reset" value=" Borrar campos">
                 <input type="submit" value="Enviar datos">
-                
+            </div>
             </form>
         </h3>
 
