@@ -1,3 +1,12 @@
+/* reseteo del margen y relleno de las etiquetas*/
+
+*{
+ margin:0 ;
+ padding: 0 ;
+}
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px ;}
 body
 {
     background: rgb(183, 214, 109) 
