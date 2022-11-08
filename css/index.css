@@ -2,3 +2,17 @@ body
 {
     background: rgb(183, 214, 109) 
 }
+h1 {
+    color: crimson;
+
+}
+.navbar {
+    color: burlywood;
+
+}
+.Bienvenida {
+    color: azure;
+}
+h3 {
+   color: black;
+}
